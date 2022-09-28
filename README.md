@@ -1,6 +1,6 @@
 # Smol Habitica
 
-![Screenshot](screenshots/smol-habitica.png)
+![Screenshot](smol-habitica.png)
 
 ## Installation
 
@@ -13,4 +13,4 @@ You can install this user style with Install Stylus.
 
 **Step #2: add this CSS user style to Stylus:**
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/jeffsieu/habitica-dark/master/habitica-dark.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/annafrompoland/smolhabitica/master/smol-habitica.css)
