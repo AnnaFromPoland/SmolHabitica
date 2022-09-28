@@ -9,51 +9,58 @@
 
 @-moz-document domain("habitica.com") {
 
+    
+    
+    
+    
 /* GLOBAL STYLE SETTINGS */
 
+    
+    
 /* hide task notes from global view */
 
-.task-notes 
-    {
-        display: none;
-    }
+.task-notes {
+    display: none;
+}
 
 /* disable checklist to pop up when you hover a mouse over a task - please click the task to go throuch its checklist items */
 
-.task:hover .checklist
-    {
-        display: none;
-    }
+.task:hover .checklist {
+    display: none;
+}
 
 /* set the height of ALL task items (..kinda. if you need more info, check F12 for website inspection) */
 
-.task-content
-    {
-        padding: 0.125rem !important;
-        height: 2.5rem
-    }
+.task-content {
+    padding: 0.125rem !important;
+    height: 2.5rem
+}
 
 /* set the height of ALL task items (..kinda. if you need more info, check F12 for website inspection) */
 
-.task-clickable-area 
-    {
-        height: 2rem !important;
-    }
+.task-clickable-area {
+    height: 2rem !important;
+}
 
 /* set the height of the area behind daily/to-do & habit checkbox (the area with colour) */
 
-.left-control, .right-control
-    {
-        width: 2.125rem !important;
-        min-height: 2.125rem !important;
-    }
+.left-control, .right-control {
+    width: 2.125rem !important;
+    min-height: 2.125rem !important;
+}
+    
+/* set the task title text overflow: normal == no overflow, break-work == will overflow to 2nd text line */
 
+.task-title {
+    overflow-wrap: normal !important;
+    
+}
+    
 /* set the height of the gap under ALL task items */
 
-.task
-    {
-        margin-bottom: 0.25rem !important;
-    }
+.task {
+    margin-bottom: 0.25rem !important;
+}
 
 /* set the top padding in ALL task items */
 
@@ -70,22 +77,24 @@
 
 
 
+    
 /* DAILY & TO-DO TASKS STYLE SETTINGS */
 
+    
+    
 /*set the size of the daily/to-do task checkbox */
 
-.task-control
-    {
-        width: 1.25rem !important;
-        height: 1.25rem !important;
-    }
+.task-control {
+    width: 1.25rem !important;
+    height: 1.25rem !important;
+}
 
 /* set the top margin of the daily/to-do task checkbox  */
 
-.daily-todo-control
-    {
-        margin-top: 0.625rem !important;
-    }
+.daily-todo-control {
+    margin-top: 0.625rem !important;
+}
+    
 /* position the v chevron sign in the daily/to-do task checkbox */
 
 .check.svg-icon {
@@ -97,37 +106,46 @@
 
 .icons {
     margin-top: -0.75rem !important;
-    padding: 0px
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0.5rem;
+    padding-left: 0px;
+}
+
+/* position the due text to right so it doesn't overlap with the task title */
+
+.calendar.svg-icon {
+    margin-left: 23rem !important;
 }
 
 
-
-
+    
+    
 
 /* HABITS TASKS STYLE SETTINGS */
 
+    
+    
 /* justify the + sign on the left of a habit task */
 
-.habit-control .positive
-    {
-        margin-top: -0.25rem !important;
-        margin-left: 0.25rem !important;
-    }
+.habit-control .positive{
+    margin-top: -0.25rem !important;
+    margin-left: 0.25rem !important;
+}
 
 /* justify the - sign on the right of a habit task */
 
-.habit-control .negative
-    {
-        margin-top: -0.25rem !important;
-        margin-left: 0.25rem !important;
-    }
+.habit-control .negative {
+    margin-top: -0.25rem !important;
+    margin-left: 0.25rem !important;
+}
 
 /* margin = set the maring/padding of the + and - areas (whole areas) in habit task items 
    padding = set the "wheel" item within this areas in habit task items */
 
 .pt-3 {
-        margin-top: 0px !important;
-        padding-top: 0.625rem !important;
+    margin-top: 0px !important;
+    padding-top: 0.625rem !important;
 }
 
 
@@ -136,11 +154,17 @@
 
 /* REWARDS TASKS STYLE SETTINGS */
 
+    
+    
 /* set the height of the right reward button - the one with the icon and reward cost value */
 
-.reward-control
-    {
-        height: 3.125rem !important;
-    }
+.reward-control {
+    height: 3.125rem !important;
+}
 
 }
+
+
+
+
+
