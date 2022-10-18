@@ -23,7 +23,17 @@
     display: none;
 }
 
-/* disable checklist to pop up when you hover a mouse over a task - please click the task to go throuch its checklist items */
+/* disable checklist showing automatically */
+    
+.checklist {
+    display: none;
+}
+    
+.task .checklist {
+    display: none;
+}
+    
+/* disable checklist to pop up when you hover a mouse over a task - please click the task to go through its checklist items */
 
 .task:hover .checklist {
     display: none;
